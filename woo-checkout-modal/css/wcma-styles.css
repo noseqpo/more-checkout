@@ -1,0 +1,13 @@
+.wcma-related-products {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wcma-related-products li {
+    flex: 1 0 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+}
